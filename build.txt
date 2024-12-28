@@ -1,5 +1,5 @@
-docker build --platform linux/amd64 -f Dockerfile -t jafarijason/rotating-tor-http-proxy:v1.1.1-02 .
+docker build --platform linux/amd64 -f Dockerfile -t jafarijason/rotating-tor-http-proxy:v1.1.1-03 .
 
-docker push jafarijason/rotating-tor-http-proxy:v1.1.1-02
+docker push jafarijason/rotating-tor-http-proxy:v1.1.1-03
 
  
