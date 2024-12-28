@@ -16,7 +16,7 @@ if ((TOR_INSTANCES < 1 || TOR_INSTANCES > 40)); then
     exit 1
 fi
 
-if ((TOR_REBUILD_INTERVAL < 600)); then
+if ((TOR_REBUILD_INTERVAL < 250)); then
     log "fatal" "Environment variable TOR_REBUILD_INTERVAL has to be bigger than 600 seconds"
     # otherwise AWS may complain about it, because http://checkip.amazonaws.com is asked too often
     exit 2
